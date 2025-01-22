@@ -5,6 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link href="./output.css" rel="stylesheet" />
+    <link 
+    rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" 
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" 
+    crossorigin="anonymous" 
+    referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
     <header class="bg-gray-900 sticky top-0">
@@ -50,11 +58,295 @@
           <p class="text-gray-500 mb-5">Lorem ipsum dolor sit amet.</p>
           <a
             href="#portofolio"
-            class="text-red-500 text-white py-2 px-5 rounded-xl hover:text-red-800"
+            class="text-white py-2 px-5 rounded-xl hover:text-red-800"
             >See all portofolio</a
           >
         </div>
       </div>
     </section>
+    <!-- About Section -->
+     <section 
+     data-aos="zoom-out-up"
+     id="about" 
+     class="w-11/12 mx-auto md:container py-20">
+        <div  class="flex items-center space-x-5">
+          <img class="w-96 h-80" src="./image/About-Image.png"/>
+          <div>
+            <p class="mb-5 text-gray-600">Halo, saya RAKMN, seorang Fullstack Developer Web yang memiliki pengalaman dalam membangun aplikasi web yang dinamis dan skalabel. Saya menguasai teknologi frontend dan backend untuk menciptakan pengalaman pengguna yang intuitif sekaligus memastikan sistem yang kuat di belakang layar.</p>
+            <h3 class="text-5xl font-bold mb-5 text-gray-800">About me</h3>
+            <p class="text-gray-600 mb-5">Keahlian saya meliputi [teknologi frontend, seperti React, Next.js, atau Vue.js] untuk membuat antarmuka yang menarik, serta [teknologi backend, seperti Node.js, Express, atau Laravel] untuk mengembangkan fungsi server yang andal.</p>
+            <div class="border-b-2 border-gray-700 mb-3">
+              <ul class="md:flex md:space-x-5">
+                <li>
+                  <a href=""><i class="fa-brands fa-tiktok mr-2"></i>Tiktok</a>
+                </li>
+                <li>
+                  <a href=""><i class="fa-brands fa-instagram mr-2"></i>Instagram</a>
+                </li>
+                <li>
+                  <a href=""><i class="fa-brands fa-whatsapp mr-2"></i>WhatsApp</a>
+                </li>
+                <li>
+                  <a href=""><i class="fa-brands fa-youtube mr-2"></i>Youtube</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      
+      </section>
+    <!-- Service Section -->
+    <section id="services" class="bg-gray-100 py-20">
+      <div class="container mx-auto px-6 text-center">
+        <h3 class="text-3xl font-bold mb-5 text-gray-800">Our Services</h3>
+        <p class="text-gray-600 mx-auto mb-12">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum
+        </p>
+      </div>
+      <div
+        class="grid grid-cols-3 sm:grid-cols-2 lg:grid-cols-3 gap-10 px-6 lg:px-20"
+      >
+        <!-- Card 1 -->
+        <div
+          class="shadow-lg bg-white border border-blue-300 hover:border-blue-500 rounded-xl p-8 hover:shadow-2xl transition-all duration-300"
+        >
+          <div
+            class="flex flex-col justify-center items-center h-screen space-y-3"
+          >
+            <img
+              class="w-64 h-64 object-cover"
+              src="https://ezy.co.id/wp-content/uploads/2021/11/web-depeloper.jpg"
+              alt="icon"
+            />
+            <h4 class="text-2xl font-bold text-gray-800">Web Development</h4>
+            <p class="text-gray-600 mb-4 text-center text-base">
+              Kemampuan Problem-Solving Kamu mampu menganalisis permasalahan
+              secara mendalam dan menemukan solusi yang relevan deng an
+              menggunakan teknologi. Contohnya, mengoptimalkan performa aplikasi
+              atau menyelesaikan bug yang kompleks.
+            </p>
+            <div
+              class="bg-blue-600 hover:bg-blue-300 p-2 rounded-xl transition-colors duration-300"
+            >
+              <a href="#" class="text-white font-medium">Learn More</a>
+            </div>
+          </div>
+        </div>
+        <!-- Card 2 -->
+        <div
+          class="shadow-lg bg-white border border-blue-300 hover:border-blue-500 rounded-xl p-8 hover:shadow-2xl transition-all duration-300"
+        >
+          <div
+            class="flex flex-col justify-center items-center h-screen space-y-3"
+          >
+            <img
+              class="w-64 h-64 object-cover"
+              src="./image/Card-Image2.jpeg"
+              alt="icon"
+            />
+            <h4 class="text-2xl font-bold text-gray-800">Data Analytics</h4>
+            <p class="text-gray-600 mb-4 text-center text-base">
+              Kemampuan Menganalisi data mentah menjadi data clean mendalam dan
+              menemukan solusi yang relevan deng an menggunakan teknologi.
+              Contohnya, mengoptimalkan performa aplikasi atau menyelesaikan bug
+              yang kompleks.
+            </p>
+            <div
+              class="bg-blue-600 hover:bg-blue-300 p-2 rounded-xl transition-colors duration-300"
+            >
+              <a href="#" class="text-white font-medium">Learn More</a>
+            </div>
+          </div>
+        </div>
+        <!-- Card 3 -->
+        <div
+          class="shadow-lg bg-white border border-blue-300 hover:border-blue-500 rounded-xl p-8 hover:shadow-2xl transition-all duration-300"
+        >
+          <div
+            class="flex flex-col justify-center items-center h-screen space-y-3"
+          >
+            <img
+              class="w-64 h-64 object-cover"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzMgFTKlHghultc37dBhXR1F9RTogKS8tNow&s"
+              alt="icon"
+            />
+            <h4 class="text-2xl font-bold text-gray-800">
+              Social Media Assistand
+            </h4>
+            <p class="text-gray-600 mb-4 text-center text-base">
+              Kemampuan Menganalisi data mentah menjadi data clean mendalam dan
+              menemukan solusi yang relevan deng an menggunakan teknologi.
+              Contohnya, mengoptimalkan performa aplikasi atau menyelesaikan bug
+              yang kompleks.
+            </p>
+            <div
+              class="bg-blue-600 hover:bg-blue-300 p-2 rounded-xl transition-colors duration-300"
+            >
+              <a href="#" class="text-white font-medium">Learn More</a>
+            </div>
+          </div>
+        </div>
+        <!-- Card 4 -->
+        <div
+          class="shadow-lg bg-white border border-blue-300 hover:border-blue-500 rounded-xl p-8 hover:shadow-2xl transition-all duration-300"
+        >
+          <div
+            class="flex flex-col justify-center items-center h-screen space-y-3"
+          >
+            <img
+              class="w-64 h-64 object-cover"
+              src="./image/Card-Image4.png"
+              alt="icon"
+            />
+            <h4 class="text-2xl font-bold text-gray-800">
+              Developer & Maintenence
+            </h4>
+            <p class="text-gray-600 mb-4 text-center text-base">
+              Kemampuan Menganalisi data mentah menjadi data clean mendalam dan
+              menemukan solusi yang relevan deng an menggunakan teknologi.
+              Contohnya, mengoptimalkan performa aplikasi atau menyelesaikan bug
+              yang kompleks.
+            </p>
+            <div
+              class="bg-blue-600 hover:bg-blue-300 p-2 rounded-xl transition-colors duration-300"
+            >
+              <a href="#" class="text-white font-medium">Learn More</a>
+            </div>
+          </div>
+        </div>
+        <!-- Card 5 -->
+        <div
+          class="shadow-lg bg-white border border-blue-300 hover:border-blue-500 rounded-xl p-8 hover:shadow-2xl transition-all duration-300"
+        >
+          <div
+            class="flex flex-col justify-center items-center h-screen space-y-3"
+          >
+            <img
+              class="w-64 h-64 object-cover"
+              src="./image/Card-Image5.png"
+              alt="icon"
+            />
+            <h4 class="text-2xl font-bold text-gray-800">UI/UX Designer</h4>
+            <p class="text-gray-600 mb-4 text-center text-base">
+              Kemampuan Menganalisi data mentah menjadi data clean mendalam dan
+              menemukan solusi yang relevan deng an menggunakan teknologi.
+              Contohnya, mengoptimalkan performa aplikasi atau menyelesaikan bug
+              yang kompleks.
+            </p>
+            <div
+              class="bg-blue-600 hover:bg-blue-300 p-2 rounded-xl transition-colors duration-300"
+            >
+              <a href="#" class="text-white font-medium">Learn More</a>
+            </div>
+          </div>
+        </div>
+        <!-- Card 6 -->
+        <div
+          class="shadow-lg bg-white border border-blue-300 hover:border-blue-500 rounded-xl p-8 hover:shadow-2xl transition-all duration-300"
+        >
+          <div
+            class="flex flex-col justify-center items-center h-screen space-y-3"
+          >
+            <img
+              class="w-64 h-64 object-cover"
+              src="./image/Card-Image6.jpeg"
+              alt="icon"
+            />
+            <h4 class="text-2xl font-bold text-gray-800">App Development</h4>
+            <p class="text-gray-600 mb-4 text-center text-base">
+              Kemampuan Menganalisi data mentah menjadi data clean mendalam dan
+              menemukan solusi yang relevan deng an menggunakan teknologi.
+              Contohnya, mengoptimalkan performa aplikasi atau menyelesaikan bug
+              yang kompleks.
+            </p>
+            <div
+              class="bg-blue-600 hover:bg-blue-300 p-2 rounded-xl transition-colors duration-300"
+            >
+              <a href="#" class="text-white font-medium">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Portofolio Section -->
+    <section id="services" class="bg-gray-100 py-20">
+      <h3 class="text-5xl font-bold text-center">Portofolio</h3>
+      <p class="text-gray-50 text-center mb-5">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque, earum.
+      </p>
+      <div
+        class="grid grid-cols-2 md:grid-cols-4 w-11/12 md:container mx-auto gap-6"
+      >
+        <!-- Card 1Portofolio  -->
+        <div class="shadow-xl hover:shadow-2xl transition-shadow duration-300">
+          <a href="">
+            <img class="rounded-lg"
+              src="./image/WhatsApp Image 2025-01-22 at 19.42.00.jpeg"
+              alt="image portofolio"
+            />
+            <div class="py-3 px-5">
+              <h4 class="text-center font-bold">Website Gojek</h4>
+              <p class="text-center text-gray-500">
+                Ini adalah project buatan saya menggunakan Techstack Express
+              </p>
+            </div>
+          </a>
+        </div
+        <!-- Card 2 -->
+        <div class="shadow-xl hover:shadow-2xl transition-shadow duration-300">
+          <a href="">
+            <img
+              src="./image/WhatsApp Image 2025-01-22 at 19.42.55.jpeg"
+              alt="image portofolio"
+            />
+            <div class="py-3 px-5">
+              <h4 class="text-center font-bold">Website Shopee</h4>
+              <p class="text-center text-gray-500">
+                Ini adalah project buatan saya menggunakan Techstack Express
+              </p>
+            </div>
+          </a>
+        </div>
+        <!-- Card 3 -->
+        <div class="shadow-xl hover:shadow-2xl transition-shadow duration-300">
+          <a href="">
+            <img
+              src="./image/WhatsApp Image 2025-01-22 at 19.42.00 (1).jpeg"
+              alt="image portofolio"
+            />
+            <div class="py-3 px-5">
+              <h4 class="text-center font-bold">Website Tokopedia</h4>
+              <p class="text-center text-gray-500">
+                Ini adalah project buatan saya menggunakan Techstack Express
+              </p>
+            </div>
+          </a>
+        </div>
+        <!-- Card 4 -->
+        <div class="shadow-xl hover:shadow-2xl transition-shadow duration-300">
+          <a href="">
+            <img
+              src="./image/Screenshot 2025-01-22 201837.png"
+              alt="image portofolio"
+            />
+            <div class="py-3 px-5">
+              <h4 class="text-center font-bold">Website Amazon</h4>
+              <p class="text-center text-gray-500">
+                Ini adalah project buatan saya menggunakan Techstack Express
+              </p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+    <footer class="bg-gray-900 text-gray-300 py-10">
+      <div class="text-center">
+        <p>&copy; 2025 Created By RAKMN. All Right Reserved</p>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+  AOS.init();
+</script>
   </body>
 </html>
